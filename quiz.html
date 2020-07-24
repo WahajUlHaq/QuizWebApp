@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="wrapper">
+
+
+
+<div class="quiz">
+
+<div class="quiz_header">
+<div class="quiz_user"><h4>Welcome! <span class="un"></span></h4></div>
+<div class="quiz_timer">
+    <span class="time" id="time">05:00</span> 
+</div>
+</div>
+
+<div class="quiz_body">
+<div id="questions">
+<!-- <h2>
+When Ali Is Eating Food, Who Break The Glass ?
+</h2>
+
+<ul class="option_group">
+
+<li class="option">Wahaj</li>
+<li class="option">Sajid</li>
+<li class="option">Ameer</li>
+<li class="option">Khan</li>
+
+
+</ul> -->
+</div>
+<button class="btn-next" onclick="next()">Next Question</button>
+
+</div>
+
+</div>
+
+
+
+</div>
+
+<div class="footer">
+    <p>This Web Application Is Developed By Wahaj Organization </p>
+    <p>© Copyright 2020 All Right Reserveed By Wahaj Organization</p>
+  </div>
+
+<script>
+    setTimeout(function(){
+location.href = "end.html";
+ }, 300000);
+</script>
+<script src="dist/js/timer.js"></script>
+    <script src="dist/js/quiz.js"></script>
+</body>
+</html>
